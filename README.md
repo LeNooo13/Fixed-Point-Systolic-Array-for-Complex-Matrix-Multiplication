@@ -1,4 +1,28 @@
-It's actually unnecessary to do the fixed-point in a systolic array, I did it for practicing the whole design flow.
+# Fixed-Point Systolic Array for Complex Matrix Multiplication
 
-The top module and testbench are rtl.v and rtb.v, respectively;
-PE as the single processing unit of the systolic array
+## Overview
+This project implements a 4×4 complex-valued systolic array for matrix multiplication, focusing on fixed-point design and hardware-efficient architecture.
+
+The work covers the complete digital IC design flow, including:
+- Algorithm modeling (MATLAB)
+- Fixed-point conversion and SQNR analysis
+- RTL design in Verilog
+- Functional verification
+- Synthesis and APR
+
+## Architecture
+- 4×4 systolic array structure
+- Each Processing Element (PE) performs:
+  - Complex multiplication
+  - Accumulation
+- Pipelined dataflow across diagonal computation stages
+
+## RTL Implementation
+- Implemented systolic array architecture in Verilog
+- Modular design with PE as basic computation unit
+- Verified functionality using testbench simulations
+
+Files:
+- `systolic_rtl.v` : top module
+- `PE.v` : processing element
+- `systolic_rtb.v` : testbench
