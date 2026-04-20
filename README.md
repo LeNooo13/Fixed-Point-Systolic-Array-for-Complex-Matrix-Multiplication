@@ -16,6 +16,7 @@ The work covers the complete digital IC design flow, including:
   - Complex multiplication
   - Accumulation
 - Pipelined dataflow across diagonal computation stages
+- ![image](https://github.com/LeNooo13/Fixed-Point-Systolic-Array-for-Complex-Matrix-Multiplication/blob/main/080cce7e-f019-4143-9aca-42ca1d683907.jpg)
 
 ## RTL Implementation
 - Implemented systolic array architecture in Verilog
